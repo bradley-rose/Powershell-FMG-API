@@ -15,7 +15,7 @@ Say no more! Let's get started with network automation.
 
 ### Usage Instructions
 1. Clone this entire project, or just download it as a .zip and extract it on a machine which has access to the target FortiManager appliance via HTTPS. This can be a remote server.
-2. Open the `actions.ps1` file, and insert your FMG IPv4 Address into the value for $fmgIP on line 11. 
+2. Open the `actions.ps1` file, and insert your FMG IPv4 Address into the value for `$fmgIP` on line 11. 
 
 ```ps1
 # This file is the primary script that will perform API function calls to the Modules\API.ps1 file, and then action those API calls to the FMG.
